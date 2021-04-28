@@ -4,12 +4,15 @@
 Comparison of primitive values for JavaScript.
 See [docs](https://total-order.github.io/primitive/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
-
 > :warning: Depending on your environment, the code may require
 > `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+
+```js
+import {range} from '@iterable-iterator/range';
+import {decreasing} from '@total-order/primitive';
+Array.from(range(12)).sort(decreasing); // 11 10 9 8 7 ...
+```
 
 [![License](https://img.shields.io/github/license/total-order/primitive.svg)](https://raw.githubusercontent.com/total-order/primitive/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@total-order/primitive.svg)](https://www.npmjs.org/package/@total-order/primitive)
