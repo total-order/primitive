@@ -1,7 +1,7 @@
 {
   "name": "@total-order/primitive",
   "description": "Comparison of primitive values for JavaScript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://total-order.github.io/primitive",
