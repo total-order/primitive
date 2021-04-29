@@ -4,10 +4,6 @@
 Comparison of primitive values for JavaScript.
 See [docs](https://total-order.github.io/primitive/index.html).
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
-
 ```js
 import {range} from '@iterable-iterator/range';
 import {decreasing} from '@total-order/primitive';
