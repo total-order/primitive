@@ -23,6 +23,7 @@
     "type"
   ],
   "sideEffects": false,
+  "type": "module",
   "source": "src/index.js",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
