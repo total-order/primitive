@@ -1,16 +1,24 @@
 import test from 'ava';
+
 import {increasing, decreasing} from '#module';
 
 const repr = (x) => {
 	switch (typeof x) {
-		case 'number':
+		case 'number': {
 			return x.toString();
-		case 'bigint':
+		}
+
+		case 'bigint': {
 			return `${x.toString()}n`;
-		case 'string':
+		}
+
+		case 'string': {
 			return JSON.stringify(x);
-		default:
+		}
+
+		default: {
 			break;
+		}
 	}
 
 	if (x instanceof Date) return x.toISOString();
