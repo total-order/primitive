@@ -34,8 +34,24 @@ const macro = (t, compare, a, rel, b) => {
 	t.true(rel(compare(a, b)));
 };
 
+const name = (compare) => {
+	switch (compare) {
+		case increasing: {
+			return 'increasing';
+		}
+
+		case decreasing: {
+			return 'decreasing';
+		}
+
+		default: {
+			throw new Error('unknown comparison function');
+		}
+	}
+};
+
 macro.title = (title, compare, a, rel, b) =>
-	title || `${compare.name}(${repr(a)}, ${repr(b)}) ${rel.name} 0`;
+	title || `${name(compare)}(${repr(a)}, ${repr(b)}) ${rel.name} 0`;
 
 const fns = [
 	{compare: increasing, lt, gt},
