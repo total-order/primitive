@@ -12,7 +12,7 @@ Array.from(range(12)).sort(decreasing); // 11 10 9 8 7 ...
 
 [![License](https://img.shields.io/github/license/total-order/primitive.svg)](https://raw.githubusercontent.com/total-order/primitive/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@total-order/primitive.svg)](https://www.npmjs.org/package/@total-order/primitive)
-[![Tests](https://img.shields.io/github/workflow/status/total-order/primitive/ci:test?event=push&label=tests)](https://github.com/total-order/primitive/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/total-order/primitive/ci?event=push&label=tests)](https://github.com/total-order/primitive/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/total-order/primitive.svg)](https://github.com/total-order/primitive/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/total-order/primitive.svg)](https://github.com/total-order/primitive/issues)
 [![Downloads](https://img.shields.io/npm/dm/@total-order/primitive.svg)](https://www.npmjs.org/package/@total-order/primitive)

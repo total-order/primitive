@@ -1,5 +1,5 @@
 import test from 'ava';
-import {increasing, decreasing} from '../../src/index.js';
+import {increasing, decreasing} from '#module';
 
 const repr = (x) => {
 	switch (typeof x) {
